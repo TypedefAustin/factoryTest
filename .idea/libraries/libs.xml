@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="libs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/LIB/client-combined-3.141.59.jar!/" />
+      <root url="jar://$PROJECT_DIR$/LIB/guice-4.2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/LIB/testng-7.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/LIB/libs/okio-1.14.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/LIB/libs/okhttp-3.11.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/LIB/libs/guava-25.0-jre.jar!/" />
+      <root url="jar://$PROJECT_DIR$/LIB/libs/commons-exec-1.3.jar!/" />
+      <root url="file://$PROJECT_DIR$/LIB/libs" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/LIB/client-combined-3.141.59-sources.jar!/" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/LIB/libs" recursive="false" />
+  </library>
+</component>
