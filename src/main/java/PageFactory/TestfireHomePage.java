@@ -11,6 +11,8 @@ public class TestfireHomePage {
 	//@FindBy(xpath="//table//tr[@class='heading3']")
 	@FindBy(xpath="//td//span[@id='_ctl0__ctl0_Content_Main_promo']")
 	WebElement homePageUserName;
+	@FindBy(xpath="//*[@id=\"_ctl0__ctl0_Content_Main_message\"]")
+	WebElement homePageloginfailed;
 	
 	public TestfireHomePage(WebDriver driver){
 		this.driver = driver;
@@ -22,4 +24,8 @@ public class TestfireHomePage {
 		public String getHomePageDashboardUserName(){
 		 return	homePageUserName.getText();
 		}
+	public String getHomePageDashboardloginfailed(){
+		return	homePageloginfailed.getText();
+	}
 }
+

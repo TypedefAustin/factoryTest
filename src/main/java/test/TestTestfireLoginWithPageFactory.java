@@ -12,7 +12,7 @@ import PageFactory.TestfireHomePage;
 import PageFactory.TestfireLogin;
 
 
-
+//工厂模式登陆测试
 
 public class TestTestfireLoginWithPageFactory {
 
